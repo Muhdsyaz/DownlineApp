@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/roundwhite_layout"
+    android:layout_marginTop="10dp"
+    android:padding="10dp"
+    android:elevation="5dp">
+
+    <!--<TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+
+            <TextView
+                android:textColor="@color/black"
+                android:text="ID: "
+                android:fontFamily="@font/muli_extrabold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="9sp"/>
+
+            <TextView
+                android:id="@+id/tvDownlineID"
+                android:textColor="@color/black"
+                android:text="downline id"
+                android:fontFamily="@font/muli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="14"
+                android:textSize="9sp"/>
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:textColor="@color/black"
+                android:text="Name: "
+                android:fontFamily="@font/muli_extrabold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="9sp"/>
+
+            <TextView
+                android:id="@+id/tvDownlineName"
+                android:textColor="@color/black"
+                android:text="downline name"
+                android:fontFamily="@font/muli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="14"
+                android:textSize="9sp"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:textColor="@color/black"
+                android:text="Address: "
+                android:fontFamily="@font/muli_extrabold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="9sp"/>
+
+            <TextView
+                android:id="@+id/tvDownlineAddress"
+                android:textColor="@color/black"
+                android:text="downline address"
+                android:fontFamily="@font/muli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="14"
+                android:textSize="9sp"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:textColor="@color/black"
+                android:text="Phone: "
+                android:fontFamily="@font/muli_extrabold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="9sp"/>
+
+            <TextView
+                android:id="@+id/tvDownlinePhone"
+                android:textColor="@color/black"
+                android:text="phone"
+                android:fontFamily="@font/muli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="14"
+                android:textSize="9sp"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:textColor="@color/black"
+                android:text="Register date: "
+                android:fontFamily="@font/muli_extrabold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="9sp"/>
+
+            <TextView
+                android:id="@+id/tvRegisterDate"
+                android:textColor="@color/black"
+                android:text="register date"
+                android:fontFamily="@font/muli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="14"
+                android:textSize="9sp"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:textColor="@color/black"
+                android:text="Status: "
+                android:fontFamily="@font/muli_extrabold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="9sp"/>
+
+            <TextView
+                android:id="@+id/tvDownlineStatus"
+                android:textColor="@color/black"
+                android:text="status"
+                android:fontFamily="@font/muli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="14"
+                android:textSize="9sp"/>
+
+        </TableRow>
+
+    </TableLayout>-->
+
+    <TextView
+        android:id="@+id/tvDownlineName"
+        android:textColor="@color/black"
+        android:text="downline name"
+        android:fontFamily="@font/muli_extrabold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:layout_weight="14"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/tvDownlineID"
+        android:textColor="@color/black"
+        android:text="downline id"
+        android:fontFamily="@font/muli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:layout_weight="14"
+        android:textSize="12sp"/>
+
+
+</LinearLayout>

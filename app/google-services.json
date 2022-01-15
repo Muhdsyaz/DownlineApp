@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "367128569686",
+    "project_id": "downlineapp",
+    "storage_bucket": "downlineapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367128569686:android:9a00eff8c0657813ca58f7",
+        "android_client_info": {
+          "package_name": "my.edu.utem.ftmk.bitp3453.downlineapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "367128569686-q3j1eu05jfm8igtre205m1dt3hfmk6p4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHrik_GN9Oe5aSt2owEOr4cm8gY427QKY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "367128569686-q3j1eu05jfm8igtre205m1dt3hfmk6p4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

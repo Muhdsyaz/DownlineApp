@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/roundwhite_layout"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    android:padding="10dp"
+    android:elevation="5dp">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+
+            <TextView
+                android:textColor="@color/black"
+                android:text="Item code: "
+                android:fontFamily="@font/muli_extrabold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="9sp"/>
+
+            <TextView
+                android:id="@+id/tvItemCode"
+                android:textColor="@color/black"
+                android:text="item code"
+                android:fontFamily="@font/muli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="14"
+                android:textSize="9sp"/>
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:textColor="@color/black"
+                android:text="Name: "
+                android:fontFamily="@font/muli_extrabold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="9sp"/>
+
+            <TextView
+                android:id="@+id/tvCustName"
+                android:textColor="@color/black"
+                android:text="cust name"
+                android:fontFamily="@font/muli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="14"
+                android:textSize="9sp"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:textColor="@color/black"
+                android:text="Address: "
+                android:fontFamily="@font/muli_extrabold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="9sp"/>
+
+            <TextView
+                android:id="@+id/tvCustAddress"
+                android:textColor="@color/black"
+                android:text="cust address"
+                android:fontFamily="@font/muli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="14"
+                android:textSize="9sp"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:textColor="@color/black"
+                android:text="Phone: "
+                android:fontFamily="@font/muli_extrabold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="9sp"/>
+
+            <TextView
+                android:id="@+id/tvCustPhone"
+                android:textColor="@color/black"
+                android:text="cust phone"
+                android:fontFamily="@font/muli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="14"
+                android:textSize="9sp"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:textColor="@color/black"
+                android:text="Transaction date: "
+                android:fontFamily="@font/muli_extrabold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="9sp"/>
+
+            <TextView
+                android:id="@+id/tvTransactionDate"
+                android:textColor="@color/black"
+                android:text="date"
+                android:fontFamily="@font/muli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="14"
+                android:textSize="9sp"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:textColor="@color/black"
+                android:text="Quantity: "
+                android:fontFamily="@font/muli_extrabold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="9sp"/>
+
+            <TextView
+                android:id="@+id/tvQuantity"
+                android:textColor="@color/black"
+                android:text="quantity"
+                android:fontFamily="@font/muli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="14"
+                android:textSize="9sp"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:textColor="@color/black"
+                android:text="Sales: "
+                android:fontFamily="@font/muli_extrabold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="9sp"/>
+
+            <TextView
+                android:id="@+id/tvSales"
+                android:textColor="@color/black"
+                android:text="sales"
+                android:fontFamily="@font/muli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="14"
+                android:textSize="9sp"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:textColor="@color/black"
+                android:text="Profit: "
+                android:fontFamily="@font/muli_extrabold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="9sp"/>
+
+            <TextView
+                android:id="@+id/tvProfit"
+                android:textColor="@color/black"
+                android:text="profit"
+                android:fontFamily="@font/muli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="14"
+                android:textSize="9sp"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
